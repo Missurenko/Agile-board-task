@@ -1,0 +1,35 @@
+.boardList {
+    background: #0034ff;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+button {
+    border-radius: 5px;
+}
+
+.board {
+    border-radius: 5px;
+    background: #e2e4e6;
+    min-width: 200px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+.board-delete, .task-delete {
+    float: right;
+}
+
+.task {
+    background: #ffffff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.taskList {
+    background: #a6a6a6;
+    border-radius: 5px;
+    min-height: 10px;
+}

@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  data:
+    mongodb:
+      database: prod_db
+      uri: mongodb://localhost:27017
+
+---
+
+spring:
+  profiles: test

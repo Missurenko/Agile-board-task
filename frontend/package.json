@@ -1,0 +1,39 @@
+{
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-devtools": "^3.2.1",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.2",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^2.30.1",
+    "http-proxy-middleware": "^0.17.4",
+    "opener": "^1.4.3",
+    "react-scripts": "^1.1.4",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.11.0",
+    "webpack-dev-middleware": "^2.0.6",
+    "webpack-dev-server": "^2.11.2",
+    "webpack-hot-middleware": "^2.22.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "start_old": "webpack",
+    "build": "webpack -p",
+    "watch": "webpack --watch",
+    "start_react": "react-scripts start",
+    "bundle2": "cross-env NODE_ENV=production webpack -p --optimize-dedupe",
+    "test2": "cross-env NODE_ENV=test mocha"
+  }
+}
